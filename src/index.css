@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+@theme{
+  --color-primary: #2997FF;
+  --color-secondry-100: #86868b;
+  --color-secondry-200: #94928d;
+  --color-secondry-300: #afafaf;
+  --color-secondry-400: #42424570;
+  --color-znc: #101010;
+  
+
+
+
+}
+.nav-height {
+  height: calc(100vh - 60px);
+}
+
+.common-padding{
+  @apply sm:py-32 py-20 sm:px-10 px-5;
+}
+
+.link{
+ @apply text-primary hover:underline cursor-pointer flex items-center text-xl opacity-0 translate-y-20;
+}
+
+  .video-carousel_container{
+    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh];
+  }
+
+.control-btn{
+  @apply ml-4 p-4 rounded-full bg-secondry-400 backdrop-blur flex justify-center;
+}
+
+.section-heading{
+  @apply text-secondry-100 lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
+}
+.screen-max-width{
+  @apply
+}
