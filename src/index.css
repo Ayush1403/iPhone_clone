@@ -36,6 +36,13 @@
 .section-heading{
   @apply text-secondry-100 lg:text-6xl md:text-5xl text-3xl lg:mb-0 mb-5 font-medium opacity-0 translate-y-20;
 }
-.screen-max-width{
-  @apply
+.color-container{
+  @apply flex items-center justify-center px-4 py-4 rounded-full bg-secondry-400 backdrop-blur ml-3 gap-1;
+}
+.size-btn-container {
+    @apply flex items-center justify-center p-1 rounded-full bg-secondry-400 backdrop-blur ml-3 gap-1
+  }
+
+.size-btn {
+@apply w-10 h-10 text-sm flex justify-center items-center bg-white text-black rounded-full transition-all
 }

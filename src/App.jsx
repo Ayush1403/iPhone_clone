@@ -13,7 +13,7 @@ function App() {
   
 
   return (
-   <main   className='bg-black w-full h-screen text-white'>
+   <main   className='bg-black overflow-x-hidden w-full text-white'>
     <Navbar />
     <Hero />
 

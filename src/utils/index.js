@@ -8,7 +8,17 @@ import heroVid2 from '/assets/video/smallHero.mp4'
 import replay from "/assets/replay.svg";
 import play from "/assets/play.svg";
 import pause from "/assets/pause.svg";
+
+
+
 import yellow from "/assets/yellow.jpg";
+import blue from "/assets/blue.jpg";
+import white from "/assets/white.jpg";
+import black from "/assets/black.jpg";
+import explore1 from "/assets/explore1.jpg";
+import explore2 from "/assets/explore2.jpg";
+import chip from "/assets/chip.jpeg";
+import frame from "/assets/frame.png";
 
 import highlightFirstmv from "/assets/video/highlight-first.mp4";
 import highlightSectmv from "/assets/video/hightlight-third.mp4";
@@ -27,7 +37,17 @@ export const right = appleright;
 export const replayImg = replay;
 export const playImg = play;
 export const pauseImg = pause;
+
+
+
 export const yellowImg = yellow;
+export const blueImg = blue;
+export const whiteImg = white;
+export const blackImg = black;
+export const explore1Img = explore1;
+export const explore2Img = explore2;
+export const chipImg = chip;
+export const frameImg = frame;
 
 
 
