@@ -41,7 +41,7 @@ const Hero = () => {
 
     <section className='w-full nav-height overflow-hidden bg-black relative'>
         <div className='h-5/6 w-full flex items-center justify-center flex-col'>
-        <p ref={text} className='text-center font-semibold text-3xl  text-gray-100 opacity-0 max-md:mb-10'>Iphone 15 Pro</p>
+        <p ref={text} className='text-center font-semibold text-3xl  text-secondry-100 opacity-0 max-md:mb-10'>Iphone 15 Pro</p>
                 <div className='md:w-10/12 w-9/12'>
             <video className='pointer-events-none'  autoPlay muted playsInline={true} key={videoSrc}>
                 <source src={videoSrc} type='video/mp4' />

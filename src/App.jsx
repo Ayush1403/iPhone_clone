@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import {gsap} from 'gsap'
 import {useGSAP} from "@gsap/react" 
 import './App.css'
-import { Navbar,Hero,Highlight, Model } from './components'
+import { Navbar,Hero,Highlight, Model , Features, HowItWorks } from './components'
 
 function App() {
 
@@ -19,7 +19,8 @@ function App() {
 
     <Highlight />
     <Model />
-   
+    <Features />
+   <HowItWorks />
    </main>
   )
 }
