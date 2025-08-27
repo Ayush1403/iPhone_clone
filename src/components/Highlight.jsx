@@ -2,7 +2,6 @@ import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from "gsap/all";
 import gsap from "gsap"
 import { right, watch } from "../utils"
-
 import VideoCarousel from './VideoCarousle';
 
 const Highlights = () => {
@@ -20,14 +19,18 @@ const Highlights = () => {
           <h1 id="title" className="section-heading">Get the highlights.</h1>
 
           <div className="flex flex-wrap items-end gap-5">
-            <p className="link">
+            <a href="https://www.youtube.com/watch?v=Ailqbh9V73M" className="link decoration-0">
+           
               Watch the film
               <img src={watch} alt="watch" className="ml-2" />
-            </p>
+            
+            </a>
+           <a href="https://www.youtube.com/watch?v=ZiP1l7jlIIA" className=" decoration-0">
             <p className="link">
               Watch the event
               <img src={right} alt="right" className="ml-2" />
             </p>
+           </a>
           </div>
         </div>
 
